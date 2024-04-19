@@ -1,10 +1,12 @@
 # 🛜 LPU WiFi Manager
+
 <br>
 <p align="center">
 <img src="./assets/llogin.png" alt="Logo" width="300">
 </p>
 <br>
-This is a command-line tool for managing LPU WiFi connections, written in Rust. It's a rewrite of the original Bash script by [Ba3a-G](https://github.com/Ba3a-G). You can find the original repository [here](https://github.com/Ba3a-G/LPU-Wireless-Autologin). I thank Ba3a-G for their original work.
+This is a command-line tool for managing LPU WiFi connections, written in Rust. It's a rewrite of the original Bash script by 
+<a href="https://github.com/Ba3a-G">Ba3a-G</a>. You can find the original repository <a href="https://github.com/Ba3a-G/LPU-Wireless-Autologin">here</a>. I thank Ba3a-G for their original work.
 
 The tool provides several commands:
 
@@ -34,6 +36,8 @@ or
 ```Bash
 yay -S llogin
 ```
+
+> Note: I've also included the `PKGBUILD` file if you choose to run `makepkg` locally.
 
 ### <img src="./assets/cargo.png" alt="Crates" height="23" width="23"> Other Systems
 
