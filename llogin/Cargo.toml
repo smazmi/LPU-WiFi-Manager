@@ -1,0 +1,13 @@
+[package]
+name = "llogin"
+version = "0.1.1"
+authors = ["smazmi"]
+edition = "2021"
+description = "LPU WiFi Manager: A CLI tool for managing Lovely Professional University WiFi connections."
+readme = "DOCS.md"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dirs-next = "2.0.0"

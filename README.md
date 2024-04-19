@@ -1,5 +1,4 @@
 # LPU WiFi Manager
-
 This is a command-line tool for managing LPU WiFi connections, written in Rust. It's a rewrite of the original Bash script by [Ba3a-G](https://github.com/Ba3a-G). You can find the original repository [here](https://github.com/Ba3a-G/LPU-Wireless-Autologin). I thank Ba3a-G for their original work.
 
 The tool provides several commands:
