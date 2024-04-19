@@ -1,4 +1,9 @@
-# LPU WiFi Manager
+# 🛜 LPU WiFi Manager
+<br>
+<p align="center">
+<img src="./assets/llogin.png" alt="Logo" width="300">
+</p>
+<br>
 This is a command-line tool for managing LPU WiFi connections, written in Rust. It's a rewrite of the original Bash script by [Ba3a-G](https://github.com/Ba3a-G). You can find the original repository [here](https://github.com/Ba3a-G/LPU-Wireless-Autologin). I thank Ba3a-G for their original work.
 
 The tool provides several commands:
@@ -14,9 +19,9 @@ The tool checks if the user is connected to LPU WiFi before performing any opera
 
 The tool stores LPU credentials in environment variables and writes them to a file. The file is updated every time the user stores new credentials.
 
-## Installation
+## 🛠️ Installation
 
-### Arch Linux
+### <img src="./assets/arch.png" alt="Arch" height="23" width="23"> Arch Linux
 
 The tool is available on the [AUR](https://aur.archlinux.org/packages/llogin) with the package name `llogin`. You can install it using `paru`, `yay` or your prefered AUR helper:
 
@@ -30,7 +35,7 @@ or
 yay -S llogin
 ```
 
-### Other Systems
+### <img src="./assets/cargo.png" alt="Crates" height="23" width="23"> Other Systems
 
 The tool is also available on [crates.io](https://crates.io/crates/llogin). You can install it using `cargo`:
 
@@ -38,10 +43,10 @@ The tool is also available on [crates.io](https://crates.io/crates/llogin). You 
 cargo install llogin
 ```
 
-## Usage
+## 🚀 Usage
 
 After installation, you can run the tool using `llogin` command followed by the desired options.
 
-## Original Bash Script
+## 📝 Original Bash Script
 
 The original Bash script by [@Ba3a-G](https://github.com/Ba3a-G) is also included in this repository for those who prefer using it.
