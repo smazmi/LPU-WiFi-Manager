@@ -37,10 +37,10 @@ fn show_help() {
     println!("Manage and log in to multiple LPU WiFi accounts.");
     println!();
     println!("Options:");
-    println!(" --help or -h       Show this help message and exit.");
-    println!(" --version or -v    Show version information and exit.");
-    println!(" --list or -l       List all stored account IDs.");
-    println!(" --account or -a    Followed by the account ID you want to login as.");
+    println!(" --help , -h       Show this help message and exit.");
+    println!(" --version , -v    Show version information and exit.");
+    println!(" --list , -l       List all stored account IDs.");
+    println!(" --account , -a    Followed by the account ID you want to login as.");
 }
 
 /// Shows the version of the program.
