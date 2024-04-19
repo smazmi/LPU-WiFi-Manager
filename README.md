@@ -32,7 +32,7 @@ yay -S llogin
 
 ### Other Systems
 
-The tool is also available on crates.io. You can install it using `cargo`:
+The tool is also available on [crates.io](https://crates.io/crates/llogin). You can install it using `cargo`:
 
 ```Bash
 cargo install llogin
