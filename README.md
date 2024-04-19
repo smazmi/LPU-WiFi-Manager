@@ -18,7 +18,7 @@ The tool stores LPU credentials in environment variables and writes them to a fi
 
 ### Arch Linux
 
-The tool is available on the AUR with the package name `llogin`. You can install it using `paru`, `yay` or your prefered AUR helper:
+The tool is available on the [AUR](https://aur.archlinux.org/packages/llogin) with the package name `llogin`. You can install it using `paru`, `yay` or your prefered AUR helper:
 
 ```Bash
 paru -S llogin
