@@ -6,7 +6,7 @@ pkgdesc="LPU WiFi Manager: A Rust-based CLI tool for managing Lovely Professiona
 arch=('x86_64')
 url="https://github.com/smazmi/LPU-WiFi-Manager"
 license=('MIT')
-depends=('curl' 'networkmanager')
+depends=('gcc-libs' 'glibc' 'curl' 'networkmanager')
 makedepends=('cargo' 'git')
 source=("git+https://github.com/smazmi/LPU-WiFi-Manager.git")
 sha256sums=('SKIP')
@@ -26,4 +26,5 @@ package() {
   cd "$srcdir/LPU-WiFi-Manager/llogin"
   install -Dm755 target/release/llogin "$pkgdir/usr/bin/llogin"
   install -Dm644 DOCS.md "$pkgdir/usr/share/doc/$pkgname/DOCS.md"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
