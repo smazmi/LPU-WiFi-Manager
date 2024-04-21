@@ -1,6 +1,6 @@
 [package]
 name = "llogin"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["smazmi"]
 edition = "2021"
 description = "LPU WiFi Manager: A CLI tool for managing Lovely Professional University WiFi connections."
