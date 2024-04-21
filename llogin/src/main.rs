@@ -150,12 +150,21 @@ fn store_lpu_credentials() {
     }
 
     // Update shell configuration file
+    let zshrc_in_home = home_dir.join("zshrc");
+    let zshrc_in_config = home_dir.join(".config/zsh/.zshrc");
     let shell_config = match env::var("SHELL") {
         Ok(val) => {
             if val.contains("bash") {
                 home_dir.join(".bashrc")
             } else if val.contains("zsh") {
-                home_dir.join(".zshrc")
+                match (zshrc_in_home.exists(),zshrc_in_config.exists()){
+                    (true,_) => zshrc_in_home,
+                    (_,true) => zshrc_in_config,
+                    _ => {
+                        println!("Could not find .zshrc file. Please manually set the environment variables.");
+                        return;
+                    }
+                }
             } else if val.contains("fish") {
                 home_dir.join(".config/fish/config.fish")
             } else {
