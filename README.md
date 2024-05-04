@@ -39,6 +39,16 @@ yay -S llogin
 
 > Note: I've also included the `PKGBUILD` file if you choose to run `makepkg` locally.
 
+### <img src="./assets/ubuntu.png" alt="Ubuntu" height="23" width="23"> Ubuntu
+
+The tool is also available on a Personal Package Archive (PPA) for Ubuntu users. You can add the PPA and install the tool using the following commands:
+
+```Bash
+sudo add-apt-repository ppa:smazmi/llogin
+sudo apt update
+sudo apt install llogin
+```
+
 ### <img src="./assets/cargo.png" alt="Crates" height="23" width="23"> Other Systems
 
 The tool is also available on [crates.io](https://crates.io/crates/llogin). You can install it using `cargo`:
