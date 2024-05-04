@@ -41,7 +41,7 @@ yay -S llogin
 
 ### <img src="./assets/ubuntu.png" alt="Ubuntu" height="23" width="23"> Ubuntu
 
-The tool is also available on a Personal Package Archive (PPA) for Ubuntu users. You can add the PPA and install the tool using the following commands:
+The tool is also available on a [Personal Package Archive (PPA)](https://launchpad.net/~smazmi/+archive/ubuntu/llogin) for Ubuntu users. You can add the PPA and install the tool using the following commands:
 
 ```Bash
 sudo add-apt-repository ppa:smazmi/llogin
