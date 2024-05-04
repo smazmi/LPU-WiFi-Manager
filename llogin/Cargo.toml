@@ -11,3 +11,14 @@ license = "MIT"
 
 [dependencies]
 dirs-next = "2.0.0"
+
+[package.metadata.deb]
+maintainer = "smazmi <sadiquemobaraka5@gmail.com>"
+copyright = "2024 Sadique"
+license-file = ["LICENSE"]
+depends = "$auto"
+section = "utility"
+assets = [
+  ["target/release/llogin", "usr/bin/","755"],
+  ["DOCS.md","usr/share/doc/llogin/README","644"],
+]
